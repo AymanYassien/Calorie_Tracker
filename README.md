@@ -45,3 +45,11 @@ npm install
 
 # Start the app
 npm run dev
+
+```
+---
+## in Action 
+
+<br><br>
+
+- [Calorie Tracker](https://aymanyassien.github.io/calorie-tracker/)

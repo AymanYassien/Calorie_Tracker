@@ -1,12 +1,47 @@
-# React + Vite
+# 🥗 Calorie Tracker App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight and user-friendly Calorie Tracker built with React. This app allows users to log their meals, categorize them, and filter their intake by date. Designed with clean UX and responsive components, including a modal-based input form.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Tech Stack
 
-## Expanding the ESLint configuration
+- **React 19**
+- **React Hooks**
+- **React Modal / Dialog** (for form UI)
+- **CSS / Styled Components** 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Features
+
+- ✅ Add calorie records (Name, Calories, Meal, Component)
+- ✅ Input validation (e.g., required fields, calorie limits)
+- ✅ Filter records by date
+- ✅ Clean modal form for entry
+- ✅ Dropdown for Meal types (Breakfast, Lunch, Dinner, etc.)
+- ✅ Responsive design for mobile and desktop
+
+---
+
+## 🚀 Getting Started
+
+### 🖥️ Prerequisites
+
+- [Node.js](https://nodejs.org/) v18 or later
+
+---
+
+### 📥 Installation & Run
+
+```bash
+# Clone the repository
+git clone https://github.com/aymanyassien/calorie-tracker.git
+
+cd calorie-tracker
+
+# Install dependencies
+npm install
+
+# Start the app
+npm run dev
